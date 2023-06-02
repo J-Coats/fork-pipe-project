@@ -1,13 +1,17 @@
 # fork-pipe-project
 
 This is an application that is able to run successive commands similar to the following: 
-wc -l someInputFile
-wc -l < someInputFile
-wc -l < someInputFile > someOutputFile
-ls -ltr /usr/bin
-ls -ltr /usr/bin > someOutputFile
-ls -ltr /usr/bin | grep grep
+wc -l someInputFile,
 
+wc -l < someInputFile,
+
+wc -l < someInputFile > someOutputFile,
+
+ls -ltr /usr/bin,
+
+ls -ltr /usr/bin > someOutputFile,
+
+ls -ltr /usr/bin | grep grep
 
  
  
